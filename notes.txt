@@ -1,0 +1,23 @@
+#find the devices which are actively available in adb
+adb devices
+
+#install a app using adb 
+
+adb install file.apk
+
+#take shell of android
+
+adb shell
+
+#find the installed apps
+
+pm list packages
+
+#grep a package using pm list
+
+pm list packages|grep facebook
+
+#finding the path of application
+
+pm path com.autotradetech.policy99
+
