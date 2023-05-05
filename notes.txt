@@ -21,3 +21,11 @@ pm list packages|grep facebook
 
 pm path com.autotradetech.policy99
 
+#pulling a app
+
+adb pull path_of_apk
+
+#Decompiling android apk using apktool
+
+apktool d file.apk
+
