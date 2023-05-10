@@ -29,3 +29,15 @@ adb pull path_of_apk
 
 apktool d file.apk
 
+
+#SSL pinning required tools
+frida
+pip3 install frida-tools
+objection
+pip3 install objection
+
+
+# automated patching
+
+objection patchapk --source android.apk
+
